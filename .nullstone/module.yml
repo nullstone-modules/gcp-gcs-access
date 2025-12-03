@@ -1,0 +1,17 @@
+org_name: nullstone
+name: gcp-gcs-access
+friendly_name: GCS Access
+description: Grants a GCP application access to a Google Cloud Storage bucket
+category: capability
+subcategory: datastores
+provider_types:
+    - gcp
+platform: gcs
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+    - server
+is_public: true
+tool_name: terraform
